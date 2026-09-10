@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  /* Rotaract brand */
+  --color-magenta: #D22063;
+  --color-magenta-dark: #a8174d;
+  --color-magenta-light: #f7d4e4;
+  --color-magenta-subtle: #fff0f6;
+
+  /* LOVE theme — warm rose gold palette */
+  --color-love: #C9184A;
+  --color-love-dark: #a31038;
+  --color-love-glow: #ff4d6d;
+  --color-love-subtle: #fff0f3;
+
+  --color-gold: #FC9800;
+  --color-gold-light: #fff7e6;
+  --color-navy: #00277E;
+  --color-navy-light: #e6ecf8;
+  --color-ink: #0f0f0f;
+  --color-mist: #f5f5f7;
+
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 { font-family: var(--font-display); }
