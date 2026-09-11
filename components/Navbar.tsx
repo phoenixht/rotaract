@@ -120,7 +120,7 @@ export default function Navbar() {
                 </Link>
               )
             )}
-            <a href="https://rotaract7020conference.org" target="_blank" rel="noopener noreferrer"
+            <a href="https://conference.rotaractd7020.com" target="_blank" rel="noopener noreferrer"
               className="ml-2 px-4 py-2 text-sm font-medium rounded-full border-2 border-love text-love hover:bg-love hover:text-white transition-all">
               {L.conference}
             </a>
@@ -171,7 +171,7 @@ export default function Navbar() {
               )}
             </div>
           ))}
-          <a href="https://rotaract7020conference.org" target="_blank" rel="noopener noreferrer"
+          <a href="https://conference.rotaractd7020.com" target="_blank" rel="noopener noreferrer"
             className="block mt-4 py-3 px-4 text-center text-sm font-medium rounded-full border-2 border-love text-love">
             {L.conference}
           </a>
