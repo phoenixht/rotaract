@@ -45,4 +45,8 @@ export function middleware() {
 
 export const config = {
   matcher: "/((?!_next/static|_next/image|favicon.ico).*)",
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 35f6e0a2885533d5e73ab153cc70965daa5b14c0
